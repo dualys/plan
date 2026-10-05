@@ -1,0 +1,12 @@
+[package]
+name = "plan"
+description = "Process manifest: defines layers and capabilities for sandboxed runs"
+keywords = ["plan", "manifest", "sandbox", "capability"]
+license.workspace = true
+edition.workspace = true
+version.workspace = true
+
+[dependencies]
+noun = { workspace = true }
+heapless = { workspace = true }
+blake3 = { workspace = true }
