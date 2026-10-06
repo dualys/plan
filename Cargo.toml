@@ -1,12 +1,13 @@
 [package]
-name = "plan"
+name = "plans"
 description = "Process manifest: defines layers and capabilities for sandboxed runs"
 keywords = ["plan", "manifest", "sandbox", "capability"]
-license.workspace = true
-edition.workspace = true
-version.workspace = true
+license =  "QGPL-3.0-or-later"
+readme = "README.md"
+edition = "2024"
+version = "0.1.0"
 
 [dependencies]
-noun = { workspace = true }
-heapless = { workspace = true }
-blake3 = { workspace = true }
+blake3 = { version = "1.8.7", default-features = false }
+heapless = { version = "0.9.3", default-features = false }
+noun = "0.1.0"
