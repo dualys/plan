@@ -6,7 +6,7 @@ license =  "AGPL-3.0-or-later"
 readme = "README.md"
 edition = "2024"
 version = "0.1.0"
-repository = "https://github.com/dualy/plan"
+repository = "https://github.com/dualys/plan"
 [dependencies]
 blake3 = { version = "1.8.7", default-features = false }
 heapless = { version = "0.9.3", default-features = false }
